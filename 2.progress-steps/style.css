@@ -57,7 +57,7 @@ body {
     -50%
   ); /* progress line is not at the center so we have to move vertically up, so translateY(-50%). Then its actually the middle */
   height: 4px;
-  width: 0%;
+  widows: 0%;
   z-index: -1; /* we want to make sure it behind the numbers & circles, so set that to negative */
   transition: 0.4s ease;
 }
